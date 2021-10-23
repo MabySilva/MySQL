@@ -32,3 +32,4 @@ select * from funcionario where salario > 2000;
 select * from funcionario where salario < 2000;
 
 
+update `db_Rh`.`tb_funcionario` set `salario`= '2341.50' where(`id_funcionario`='9');
