@@ -31,5 +31,4 @@ insert into funcionario (nome, sobrenome, setor, cargo, salario) values ("Andrei
 select * from funcionario where salario > 2000;
 select * from funcionario where salario < 2000;
 
-
-update `db_Rh`.`tb_funcionario` set `salario`= '2341.50' where(`id_funcionario`='9');
+update funcionario set salario = 10000.00 where id_funcionario;
